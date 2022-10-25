@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&family=Montserrat+Alternates:wght@400;600&family=Montserrat+Subrayada:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0; }
+a{text-decoration: none;}
+header, main, nav, footer{
+padding: 0 17vw;}
+body{overflow: hidden;}
+
+/*HEADER*/           
+header{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #FE938C;
+    color: black;
+    height: 8.3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+        header p{
+            font-weight: 600;
+            font-size: 1.5em;}
+
+/*NAV*/  
+nav{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    background-color:#E6B89C;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0 2em 0 2em;}
+       
+        nav a{
+            background-color:#E6B89C;
+            color: black;
+            height: 25vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.75em;
+            font-weight: 700;}
+        nav a img{
+            width: 300px;
+            weight: 300px}
+
+/*MAIN*/   
+main{height:49.98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding: 0 0 2em 0;}
+
+
+/*FOOTER*/     
+footer{
+    font-family: 'Montserrat Alternates', sans-serif; }
+footer{
+    font-weight: 400;
+    font-style: italic;
+    background-color: black;
+    color: white;
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-center;
+    padding: 2.75em 0 0 0;}
+    footer address, footer a{
+    font-weight: 400;
+    font-style: italic;
+    background-color: black;
+    color: white;}
